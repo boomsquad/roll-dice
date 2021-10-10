@@ -1,0 +1,16 @@
+body {background-image: url(dice.jpg);
+    background-size: cover;}
+
+h1 {text-align: center;}
+
+p {font-size: 20px;}
+
+button {text-align: center;}
+
+table, th, tr, td { text-align: center;
+    padding: 15px; }
+
+table { width: 20%;
+    margin: auto;}
+
+.container {text-align: center;}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rolling Dice</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body onload="RollDice()">
+        <h1>Rolling Dice</h1>
+        <p>
+            This program is going to simulate the street game of rolling dice. Two dice are rolled and the total is added up. If you roll a total of 7 or 11 you win.
+            If you roll the same number two times in a row you win. If you roll a two you roll again. If you roll a 7 or 11, "you win!". If you roll a 2 you get to roll
+            again. Lastly, if you roll the same number two times in a row, "you win!"
+        </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+        <div class="container">
+            <button class="button" onclick="RollDice()" autofocus>Roll</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>Red Dice</th>
+                <th>Blue Dice</th>
+            </tr>
+            <tr>
+                <td ><input id="red" type="text" size="8" disabled></td>
+                <td><input id="blue" type="text" size="8" disabled></td>
+            </tr>
+        </table>
+    </body>
+</html>
